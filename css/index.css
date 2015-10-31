@@ -50,7 +50,7 @@ header p{
 nav{
     width: 960px;
     padding: 10px 0;
-    margin: 0px 270px;
+    margin: 0 270px;
     overflow: hidden;
 }
 nav .nav_left{
@@ -73,7 +73,7 @@ nav .nav_left ul li{
 }
 nav .nav_left ul li:first-child{
     display: inline;
-    padding: 15px 15px 15px 0px;
+    padding: 15px 15px 15px 0;
     color: #5f5e5e;
 }
 nav .nav_left ul li a{
@@ -109,7 +109,7 @@ nav .nav_right input{
     height: 430px;
     position: relative;
     background: #848484;
-    box-shadow: 0px 3px 5px grey;
+    box-shadow: 0 3px 5px grey;
 }
 
 .slider .l_arrow{
@@ -167,7 +167,7 @@ nav .nav_right input{
 /*Portfolio Wrapper*/
 .gallery_wrapper{
     margin: 20px 270px;
-    padding: 0px;
+    padding: 0;
     height: auto;
     overflow: hidden;
 }
@@ -180,8 +180,8 @@ nav .nav_right input{
     color: #d4a258;
 }
 .gallery_wrapper .gallery_1{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     float: left;
 }
 .gallery_wrapper .gallery_1 img{
@@ -212,7 +212,7 @@ nav .nav_right input{
 .post .post_left .read_btn{
     text-align: left;
     float: right;
-    padding-left: 10px;
+    padding-left: 10;
     position: relative;
     width: 200px;
     height: 50px;
@@ -317,9 +317,7 @@ footer .footer_wrap .footer_left .footer_left_social{
     height: 270px;
     padding-right: 25px;
 }
-footer .footer_wrap .footer_left .footer_left_icons{
-    
-}
+
 footer .footer_wrap .footer_middle{
     width: 300px;
     float: left;
@@ -334,12 +332,11 @@ footer .footer_wrap .footer_right{
 }
 footer .footer_wrap .footer_right ul{
     column-count: 2;
+    -ms-column-count: 2;
     -webkit-column-count: 2; 
     -moz-column-count: 2;
 }
-footer .footer_wrap .footer_right h3{
-    
-}
+
 footer .footer_wrap .footer_right ul{
     list-style: none;
     margin: 0;

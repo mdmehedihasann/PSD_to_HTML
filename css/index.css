@@ -1,0 +1,361 @@
+@font-face {
+    font-family: Era;
+    src: url(../fonts/ERASMD.TTF);
+}
+.overflow{
+    overflow: hidden;
+}
+body{
+    width: auto;
+    background-color: black;
+}
+.container{
+    width: 1500px;
+    background-color: white;
+    margin: 0 auto;
+}
+.container hr {
+    color: rgba(128, 128, 128, 0.8);
+}
+
+
+/*Header*/
+header{
+    text-align: center;
+}
+header h1{
+    font-family: "Era";
+    font-size: 80px;
+    color: #898989;
+}
+header h1 span{
+    font-family: "Era";
+    font-size: 60px;
+    color: #e6a549;
+}
+header div{
+    margin-top: -60px;
+}
+header p{
+    text-transform: uppercase;
+    color: #898989;
+    font-family: sans-serif;
+}
+
+
+
+
+
+/*Navigation*/
+nav{
+    width: 960px;
+    padding: 10px 0;
+    margin: 0px 270px;
+    overflow: hidden;
+}
+nav .nav_left{
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    float: left;
+}
+nav .nav_left ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav .nav_left ul li{
+    display: inline;
+    padding: 15px;
+    color: #5f5e5e;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+nav .nav_left ul li:first-child{
+    display: inline;
+    padding: 15px 15px 15px 0px;
+    color: #5f5e5e;
+}
+nav .nav_left ul li a{
+    text-decoration: none;
+    color: #5f5e5e;
+}
+nav .nav_right{
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+nav .nav_right img{
+    float: right;
+    position: absolute;
+    right: 9px;
+    top: 7px;
+}
+nav .nav_right input{
+    float: right;
+    position: relative;
+    width: 200px;
+    background-image: url(../images/nav_search_back.png)
+}
+
+
+
+/*Slider*/
+.slider{
+    margin: 20px 270px;
+    width: 960px;
+    height: 430px;
+    position: relative;
+    background: #848484;
+    box-shadow: 0px 3px 5px grey;
+}
+
+.slider .l_arrow{
+    position: absolute;
+    top: 200px;
+}
+.slider .r_arrow{
+    top: 200px;
+    left: 925px;
+    position: absolute;
+}
+.slider .slider_description{
+    position: absolute;
+    top: 325px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 15px 40px 30px;
+    font-family: sans-serif;
+}
+.slider .slider_menu{
+    position: absolute;
+    top: 900px;
+    left: 500px;
+    
+}
+.slider .slider_menu ul{
+    list-style: disc;
+}
+.slider .slider_menu ul li{
+    display: inline;
+}
+
+
+
+/*Content*/
+.content{
+    margin: 20px 270px;
+    padding: 20px;
+    border: 3px solid rgba(128, 128, 128, 0.50);
+    border-radius: 10px;
+}
+.content h3{
+    text-align: center;
+    font-family: "Era";
+    color: #5f5e5e;
+}
+.content h3 span{
+    color: #d4a258;
+    font-size: 24px;
+}
+
+
+
+
+
+/*Portfolio Wrapper*/
+.gallery_wrapper{
+    margin: 20px 270px;
+    padding: 0px;
+    height: auto;
+    overflow: hidden;
+}
+.gallery_wrapper h3{
+    font-family: sans-serif;
+    color: #5f5e5e;
+}
+.gallery_wrapper h3 span{
+    font-family: sans-serif;
+    color: #d4a258;
+}
+.gallery_wrapper .gallery_1{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+.gallery_wrapper .gallery_1 img{
+    margin: 0px;
+    padding: 0px;
+    width: 240px;
+    height: 200px;
+    float: left;
+}
+
+
+
+
+/*Post*/
+.post{
+    margin: 20px 270px;
+    padding: 0px;
+    width: 960px;
+    height: auto;
+    overflow: hidden;
+}
+.post .post_left{
+    width: 45%;
+    text-align: left;
+    float: left;
+    padding-right:  20px;
+}
+.post .post_left .read_btn{
+    text-align: left;
+    float: right;
+    padding-left: 10px;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url(../images/read%20more_back.png);
+}
+.post .post_left .read_btn img{
+    position: absolute;
+    top: 22px;
+    left: 180px;
+}
+.post .post_left h3{
+    font-family: sans-serif;
+    color: #5f5e5e;
+}
+.post .post_left p{
+    font-family: sans-serif;
+    color: #5f5e5e;
+}
+.post .post_left h3 span{
+    font-family: sans-serif;
+    color: #d4a258;
+}
+.post .post_right{
+    width: 45%;
+    text-align: left;
+    float: right;
+}
+.post .post_right h3{
+    font-family: sans-serif;
+    color: #5f5e5e;
+}
+.post .post_right p{
+    font-family: sans-serif;
+    color: #5f5e5e;
+}
+.post .post_right h3 span{
+    font-family: sans-serif;
+    color: #d4a258;
+}
+.post .post_right .post_r_styl1{
+    float: left;
+    margin-bottom: 10px;
+}
+.post .post_right .post_r_styl1 p span{
+    color: #5f5e5e;
+}
+.post .post_right .post_r_styl1 p a{
+    color: #d4a258;
+}
+.post .post_right .post_r_styl1 img{
+    width: 90px;
+    height: 75px;
+    margin-right: 15px;
+}
+.post .post_right .post_r_styl1 p{
+    width: 320px;
+    margin-bottom: 10px;
+    float: right;
+    margin-top: -5px;
+}
+.post .post_right .read_btn{
+    text-align: left;
+    float: right;
+    padding-left: 10px;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    background-image: url(../images/read%20more_back.png);
+}
+.post .post_right .read_btn img{
+    position: absolute;
+    top: 22px;
+    left: 180px;
+}
+
+
+
+
+/*Footer*/
+footer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(../images/footer_back.png)
+}
+footer .footer_wrap{
+    width: 960px;
+    margin: 20px 270px;
+    float: left;
+}
+footer .footer_wrap .footer_left{
+    width: 300px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+footer .footer_wrap .footer_left .footer_left_social{
+    height: 270px;
+    padding-right: 25px;
+}
+footer .footer_wrap .footer_left .footer_left_icons{
+    
+}
+footer .footer_wrap .footer_middle{
+    width: 300px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+footer .footer_wrap .footer_right{
+    width: 350px;
+    float: right;
+    margin: 0 auto;
+}
+footer .footer_wrap .footer_right ul{
+    column-count: 2;
+    -webkit-column-count: 2; 
+    -moz-column-count: 2;
+}
+footer .footer_wrap .footer_right h3{
+    
+}
+footer .footer_wrap .footer_right ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer .footer_wrap .footer_right ul li{
+    line-height: 25px;
+}
+footer .footer_wrap .footer_right ul li a{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.8);
+    font-family: sans-serif;
+}
+.copyright{
+    padding: 20px;
+    text-align: right;
+    font-family: sans-serif;
+    color: grey;
+}
